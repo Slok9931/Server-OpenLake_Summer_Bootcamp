@@ -1,0 +1,12 @@
+# Task2 - Express & MongoDB Integration
+
+This project demonstrates a simple Node.js server using **Express** and **Mongoose** to connect with a local **MongoDB** database.
+
+---
+
+## 🚀 Features
+
+- ✅ Connect to MongoDB with Mongoose
+- ✅ Create & Save Data (POST)
+- ✅ Read All Data (GET)
+- ✅ Simple REST API example
