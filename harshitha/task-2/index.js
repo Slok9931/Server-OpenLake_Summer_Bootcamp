@@ -1,11 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
-require('dotenv').config();
+
 
 const app = express();
 const PORT=3000;
+const MONGO_URI ='mongodb://localhost:27017/task2db';
 
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(MONGO_URI)
     .then(()=>{
         console.log("Connected to MongoDB");
     })
