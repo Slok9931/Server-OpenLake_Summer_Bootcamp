@@ -1,0 +1,14 @@
+# This is a comment. Git ignores lines starting with #.
+
+# Ignore the node_modules directory
+node_modules
+
+# Ignore all .env files
+.env
+
+# Optional but good practice: Ignore log files
+*.log
+npm-debug.log*
+
+# Optional: Ignore OS-generated files
+.DS_Store
