@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
+*.log
+yarn-debug.log*
+yarn-error.log*
